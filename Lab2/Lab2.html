@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Мій резюме</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    
+    .content {
+      display: flex;
+    }
+    
+    .left-block {
+      width: 50%;
+      margin-right: 20px;
+    }
+    
+    .right-block {
+      width: 50%;
+    }
+    
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    ul {
+      font-size: 18px;
+      list-style-type: none;
+      margin-bottom: 10px;
+    }
+    
+    li:before {
+      content: "•";
+      margin-right: 5px;
+      color: #333;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .content {
+        flex-direction: column;
+      }
+      
+      .left-block, .right-block {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="my-photo.jpg" alt="Моя фотографія">
+    <h1>Ім'я та прізвище</h1>
+  </div>
+  <div class="content">
+    <div class="left-block">
+      <h2>Контактна інформація</h2>
+      <ul>
+        <li>Email: myemail@example.com</li>
+        <li>Телефон: +380123456789</li>
+        <li>Адреса: м. Моя адреса, вул. Моя вулиця, буд. 1, кв. 1</li>
+      </ul>
+    </div>
+    <div class="right-block">
+      <h2>Про мене</h2>
+      <p>Я є професійним розробником програмного забезпечення з більш ніж 5-річним досвідом. Я володію широким спектром навичок у розробці веб-додатків, включаючи HTML, CSS, JavaScript, PHP та бази даних MySQL. Я також працював з фреймворками, такими як React та Laravel. Я маю досвід у розробці веб-додатків для клієнтів у різних галузях, таких як фінанси, туризм, медицина та інформаційні технології.</p>
+<h2>Навички</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>PHP</li>
+<li>MySQL</li>
+<li>React</li>
+<li>Laravel</li>
+<li>Git</li>
+</ul>
+</div>
+
+  </div>
+</body>
+</html>
